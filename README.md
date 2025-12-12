@@ -37,8 +37,8 @@
     * 链接格式通常为：`https://common-buy.aliyun.com/?orderType=RENEW&commodityCode=...&instanceId=...`
 
 ### 第三步：修改脚本配置
-打开油猴插件的脚本编辑器，找到代码中的第 **138 行**左右（`cashierPageSequence` 函数内），将 `newUrl` 的值替换为你刚才复制的链接。
+打开油猴插件的脚本编辑器，找到代码中的第 **245 行**左右（`cashierPageSequence` 函数内），将 `newUrl` 的值替换为你刚才复制的链接。
 
 ```javascript
 // 👇👇👇 将下方的链接替换为你自己的续费页面链接 👇👇👇
-const newUrl = '[https://common-buy.aliyun.com/?orderType=RENEW&commodityCode=dcdn_dcdnserviceplan_public_cn&instanceId=你的实例ID](https://common-buy.aliyun.com/?orderType=RENEW&commodityCode=dcdn_dcdnserviceplan_public_cn&instanceId=你的实例ID)';
+const const newUrl = 'https://common-buy.aliyun.com/?orderType=xxxxxxx';
